@@ -40,7 +40,7 @@ body {
 }
 .navigation-list-link:hover {
   color: var(--brand-color);
-  background-image: url('https://cdn-icons-png.flaticon.com/512/507/507257.png');
+  cursor: pointer;
 }
 .header-contacts a {
   text-decoration: none;
@@ -52,7 +52,7 @@ body {
 }
 .header-contacts-list-link:hover {
   color: var(--brand-color);
-  background-image: url('https://cdn-icons-png.flaticon.com/512/507/507257.png');
+  cursor: pointer;
 }
 .first {
   background-color: #2f303a;
@@ -147,6 +147,7 @@ body {
 .address-list a:hover,
 .address-list a:focus {
   color: var(--brand-color);
+  cursor: pointer;
 }
 .footer .logo {
   color: #fff;
