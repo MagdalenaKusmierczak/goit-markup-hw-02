@@ -86,7 +86,6 @@ body {
   color: #212121;
 }
 .description-list-paragraf {
-  font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
   color: #757575;
@@ -125,7 +124,6 @@ body {
   color: #212121;
 }
 .teammate-job {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -137,7 +135,6 @@ body {
 }
 .address-list {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -146,4 +143,10 @@ body {
 .address-list a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+}
+.address-list a:hover {
+  color: var(--brand-color);
+}
+.footer .logo {
+  color:#fff;
 }
