@@ -44,11 +44,8 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
-.logo:active,
-.logo:visited {
-  color: currentColor;
-}
-.header .logo {
+.header .logo,
+.header-portfolio .logo {
   color: #000;
 }
 .logo span {
@@ -57,6 +54,7 @@ body {
 .footer .logo {
   color: #fff;
 }
+
 /* Logo settings */
 /*  */
 /* Link settings */
