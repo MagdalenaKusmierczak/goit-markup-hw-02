@@ -44,6 +44,10 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+.logo:active,
+.logo:visited {
+  color: currentColor;
+}
 .header .logo {
   color: #000;
 }
