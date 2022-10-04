@@ -117,7 +117,7 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  box-shadow: 0px;
+  box-shadow: none;
   cursor: pointer;
 }
 .portfolio-button:hover,
