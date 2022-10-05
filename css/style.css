@@ -59,20 +59,20 @@ body {
 /*  */
 /* Link settings */
 .link {
-  cursor: pointer;
   text-decoration: none;
 }
 .link:hover,
 .link:focus {
   color: var(--brand-color);
 }
-
+.current-page {
+  color: var(--brand-color);
+}
 .link:active,
 .link:visited {
-  color: currentColor;
+  color: initial;
 }
 .navigation-list-link {
-  color: currentColor;
   font-weight: 500;
   letter-spacing: 0.02em;
 }
@@ -88,6 +88,7 @@ body {
 .address-list a {
   color: rgba(255, 255, 255, 0.6);
 }
+
 /* Link settings */
 /*  */
 /* Buttons of all type */
@@ -108,16 +109,15 @@ body {
   cursor: pointer;
 }
 .portfolio-button {
-  background: #f5f4fa;
-  border-color: inherit;
   font-family: 'Roboto', sans-serif;
+  background-color: #f5f4fa;
+  border-color: inherit;
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  box-shadow: none;
   cursor: pointer;
 }
 .portfolio-button:hover,
